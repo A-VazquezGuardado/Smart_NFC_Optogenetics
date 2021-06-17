@@ -4,7 +4,7 @@ This repository contains a stand-alone graphic user interface (GUI) implemented 
 
 The GUI is an intuitive interface that provides configuration/operation access to the implantable devices.
 
-System requirements:
+## System requirements:
 This GUI runs in MATLAB 2017a and newer versions in both Mac and Windows operating systems.
 No additional toolboxes or libraries are needed to run this GUI.
 MATLAB and the NFC reader are connected via RS232 serial interface and a RS232 to USB adapter is required. Commercial systems such as those provided by NeuroLux Inc are self-contained hardware that do not require any additional adapter.
