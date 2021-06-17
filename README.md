@@ -1,8 +1,6 @@
 # Smart NFC Optogenetics
 
-This repository contains a stand-alone graphic user interface (GUI) implemented in MATLAB (The MathWorks Inc). This GUI establishes a connection via serial interface with the LRM2500-A(B) NFC reader (Feig Electronics Inc). 
-
-The GUI is an intuitive interface that provides configuration/operation access to the implantable devices. Technically as many as 255 devices can be discovered and accessed, independently, using this application.
+This repository contains a stand-alone graphic user interface (GUI) implemented in MATLAB (The MathWorks Inc). This GUI establishes a connection via serial interface with the LRM2500-A(B) NFC reader (Feig Electronics Inc), offering an intuitive interface to provide configuration/operation access to the implantable devices. 
 
 ## System requirements:
 
@@ -12,13 +10,14 @@ The GUI is an intuitive interface that provides configuration/operation access t
 
 ## Installation instructions:
 
-This GUI does not require installation. However, MATLAB must be installed prior to utilizing this software.
-Download the .m and .fig files to a local folder.
+- This GUI does not require installation. However, MATLAB must be installed prior to utilizing this software.
+- Download the .m and .fig files and store them in a local folder.
 
 ## Operation:
 
-Connect the NFC reader or NeuroLux PDC box.
-Open the .m file in MATLAB and hit the run button. The GUI will open.
-Select the serial port to establish communication with the hardware.
-Detailed operation modes are described in the manuscript.
+- Connect the NFC reader or NeuroLux PDC box.
+- Open the .m file in MATLAB and hit the run button to open the GUI.
+- Select the serial port to establish communication with the hardware.
+
+Detailed operation modes, such as configuration and operation of the devices, are described in the manuscript.
 
