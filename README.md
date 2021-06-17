@@ -14,7 +14,8 @@ This GUI does not require installation. However, MATLAB must be installed prior 
 Download the .m and .fig files to a local folder.
 
 Operation:
-Open the .m file in matlab and hit the run button. The GUI will open.
-Select the serial port 
+Connect the NFC reader or NeuroLux PDC box.
+Open the .m file in MATLAB and hit the run button. The GUI will open.
+Select the serial port to establish communication with the hardware.
 Detailed operation modes are described in the manuscript.
 
