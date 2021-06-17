@@ -1,12 +1,3 @@
-% To do:
-    % Implement Tonic vs Burst mode at timing level
-    % Implement a run and stop button
-    % When changing devce from device list and click read, the options are
-    % not updated.
-    % If no response, then do not update the selected mode of operation
-    
-% Main GUI for optogentics supporting 4 channels  
-% To be updated: Include intensity level
 
 function varargout = SmartDevices(varargin)
 % SmartDevices MATLAB code for SmartDevices.fig
@@ -104,44 +95,6 @@ handles.serial.s.port = ports{b};
 % Initializes some flags
 handles.flags.receiving = 0;
 handles.flags.serial_active = 0;
-
-% Set up initial check button states, enables
-% set(handles.connected,'Value',0);
-% set(handles.ch_single,'Value',0);
-% set(handles.ch_dual,  'Value',0);
-% set(handles.ch1,      'Value',0);
-% set(handles.ch2,      'Value',0);
-% set(handles.ch3,      'Value',0);
-% set(handles.ch4,      'Value',0);
-% set(handles.ch_inph,  'Value',0);
-% set(handles.ch_outph, 'Value',0);
-
-% Disable unnesesary buttons
-% set(handles.ch1,      'Enable','Inactive');
-% set(handles.ch2,      'Enable','Inactive');
-% set(handles.ch3,      'Enable','Inactive');
-% set(handles.ch4,      'Enable','Inactive');
-% set(handles.ch_single,'Enable','Inactive');
-% set(handles.ch_dual,  'Enable','Inactive');
-% set(handles.ch_outph, 'Enable','Inactive');
-% set(handles.ch_inph,  'Enable','Inactive');
-% set(handles.ON_OFF,   'Enable','Inactive');
-% set(handles.cmd_indicator,'Enable','Inactive');
-% set(handles.T,'Enable','Off');
-% set(handles.DC,'Enable','Off');
-% set(handles.text30,'Enable','Off');
-% set(handles.burstperiod,'Enable','Off');
-
-% set(handles.cmd_RF_ON_OFF,  'Enable','Off');
-% set(handles.rf_power,       'Enable','Off');
-% set(handles.cmd_set_rfpower,'Enable','Off');
-
-% set(handles.cmd_write,      'Enable','Off');
-% set(handles.cmd_read,      'Enable','Off');
-% set(handles.cmd_read_UDID,    'Enable','Off');
-% set(handles.cmd_memSummary,   'Enable','Off');
-% set(handles.UDID_devices,     'Enable','Off');
-
 dis_enableALL(handles,0);
 
 % Initializes the UIUD parameters
