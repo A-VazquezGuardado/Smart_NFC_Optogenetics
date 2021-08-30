@@ -1,6 +1,9 @@
 # Smart NFC Optogenetics
 
-This repository contains a stand-alone graphic user interface (GUI) implemented in MATLAB (The MathWorks Inc). This GUI establishes a connection via serial interface with the LRM2500-A(B) NFC reader (Feig Electronics Inc), offering an intuitive interface to provide configuration/operation access to the implantable devices. 
+This repository contains the follwowing:
+- Stand-alone graphic user interface (GUI) implemented in MATLAB (The MathWorks Inc). This GUI establishes a connection via serial interface with the LRM2500-A(B) NFC reader (Feig Electronics Inc), offering an intuitive interface to provide configuration/operation access to the implantable devices.
+- CAD designs for bilateral head mounted (HM) with 3mm long probe and back mounted (BM) versions. 
+- Arduino firmaware for the ATTINY84 microcontroller, compatible with both HM and BM.
 
 ## System requirements:
 
@@ -19,5 +22,9 @@ This repository contains a stand-alone graphic user interface (GUI) implemented 
 - Open the .m file in MATLAB and hit the run button to open the GUI.
 - Select the serial port to establish communication with the hardware.
 
+## Microcontroller programming:
+
+- The library TinyWireM.h is required. Further information regarding use and installation can be found here (https://github.com/nadavmatalon/TinyWireM).
+- Programming ATTINY84 using Arduino requires the ATTinyCore package. Instruction of how to install and use can be found here (https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md).
 Detailed operation modes, such as configuration and operation of the devices, are described in the manuscript.
 
