@@ -2,23 +2,11 @@
  *   
  *   Supports:
  *   - HM bilateral w/ and w/o intensity control
- *   - NFC peripheral (U Cincinnatti)
- *   - NFC spinal (Stanford)
- *   -
+ *   - BM multichannel w/ and w/o intensity control
  *   
-   This verions tries to remove the flash observed with activating burst mode
 
-   Curret version with all issues fixed!
 
-   This is a modified version of Advanced_Functions_VoltageControl_V4.
-   The main updates:
-     Better port addressability, only one line needs to be updated.
-     The high power demand was solved. It consumes 0.7 mA @ 3.3 V (2.3 mW) plus loads.
-     If the NFC chip is new, it will initialize values.
-     When updating value to NFC chip, only that value will be updated in the firmware.
-     Indicator is optional.
-
-   This sript runs the firmware of the NFC-Optogenetics on an ATtiny84 @ 1MHz.
+   This firmware for NFC-Optogenetics devices on an ATtiny84 runs @ 1MHz.
    It connects to a M24LR04E NFC RFID chip via TinyWireM library using I2C communication protocol.
    The NFC memory can be writen externally, and the microcontroller will
    update the working parameters upon interruption (RF WIP).
@@ -28,18 +16,8 @@
    Indicator has a 1000 ms @ 10 % period of the idle state and
    it copies the actual period and dc from the active channel in the active state.
 
-   These two pins will have to be updated according to the board!
-   Indicator connected to gnd/vcc
-   WIP from RFID interruption
-   Channels driving the illumination channels
-
    Abraham Vázquez-Guardado.
    Evanston, IL. 2020.
-
-   Headmount hardware with intensity control
-   Indicator to GND
-   Interruption on PINA7
-
    Last Revision: Feb 9 2021
 */
 
