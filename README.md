@@ -25,6 +25,8 @@ This repository contains the follwowing:
 ## Microcontroller programming:
 
 - The library TinyWireM.h is required. Further information regarding use and installation can be found here (https://github.com/nadavmatalon/TinyWireM).
-- Programming ATTINY84 using Arduino requires the ATTinyCore package. Instruction of how to install and use can be found here (https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md).
+- Programming ATTINY84 using Arduino requires the ATTinyCore package. Instruction of how to install and use this package can be found here (https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md).
+
+
 Detailed operation modes, such as configuration and operation of the devices, are described in the manuscript.
 
