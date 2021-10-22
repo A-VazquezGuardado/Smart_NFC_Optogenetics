@@ -14,13 +14,14 @@ This repository contains the follwowing:
 ## Installation instructions:
 
 - This GUI does not require installation. However, MATLAB must be installed prior to utilizing this software.
-- Download the .m and .fig files and store them in a local folder.
+- Download the .m, .fig and .p files and store them in a local folder.
 
 ## Operation:
 
 - Connect the NFC reader or NeuroLux PDC box.
 - Open the .m file in MATLAB and hit the run button to open the GUI.
 - Select the serial port to establish communication with the hardware.
+- Detailed operation modes, such as configuration and operation of the devices, are described in the manuscript.
 
 ## Microcontroller programming:
 
@@ -28,5 +29,5 @@ This repository contains the follwowing:
 - Programming ATTINY84 using Arduino requires the ATTinyCore package. Instruction of how to install and use this package can be found here (https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md).
 
 
-Detailed operation modes, such as configuration and operation of the devices, are described in the manuscript.
+
 
