@@ -1,4 +1,4 @@
-[![Hits](https://zenodo.org/badge/latestdoi/371785386)]
+[![DOI](https://zenodo.org/badge/371785386.svg)](https://zenodo.org/badge/latestdoi/371785386)
 
 # Smart NFC Optogenetics
 
