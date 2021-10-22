@@ -1,3 +1,5 @@
+[![Hits](https://zenodo.org/badge/latestdoi/371785386)](https://hits.seeyoufarm.com)
+
 # Smart NFC Optogenetics
 
 This repository contains the follwowing:
@@ -28,6 +30,3 @@ This repository contains the follwowing:
 - The library TinyWireM.h is required. Further information regarding use and installation can be found here (https://github.com/nadavmatalon/TinyWireM).
 - Programming ATTINY84 using Arduino requires the ATTinyCore package. Instruction of how to install and use this package can be found here (https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md).
 
-
-
-https://zenodo.org/badge/latestdoi/371785386
