@@ -1,4 +1,4 @@
-[![Hits](https://zenodo.org/badge/latestdoi/371785386)](https://hits.seeyoufarm.com)
+[![Hits](https://zenodo.org/badge/latestdoi/371785386)]
 
 # Smart NFC Optogenetics
 
