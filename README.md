@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/371785386.svg)](https://zenodo.org/badge/latestdoi/371785386)
+[![DOI](https://img.shields.io/badge/Published-Nature%20Neuroscience-green)](https://doi.org/10.1038/s41593-021-00849-x)
 
 # Smart NFC Optogenetics
 
